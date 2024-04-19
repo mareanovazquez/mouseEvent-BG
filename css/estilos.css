@@ -1,32 +1,43 @@
 body {
     margin: 0;
     padding: 0;
-    background: #000;
+    background: #BABABA;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-ul#kutular {
+.contenedor {
+    width: 70%;
+    height: 30vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul#bgmouseE {
     margin: 0;
     padding: 0;
 }
 
-ul#kutular li {
-    margin: 0;
+ul#bgmouseE li {
     list-style: none;
     padding: 0;
+    
 }
 
-.blok {
-    background: #ffa900;
+.bloque {
+    background: #CFCFCF;
     display: inline-block;
     text-align: center;
-    font: 11px arial;
-    border-radius: 60px; /* Modificar el radio de borde para hacer los puntos más pequeños */
-   
-    margin: 0px;
+    margin: 5px;
     padding: 0;
-    -webkit-transition: all .6s ease-out;
-    -moz-transition: all .6s ease-out;
-    -ms-transition: all .6s ease-out;
-    -o-transition: all .6s ease-out;
-    transition: all .6s ease-out;
+    transition: all .6s ease-out; 
 }
